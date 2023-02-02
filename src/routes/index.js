@@ -1,9 +1,10 @@
 import styles from './Routes.module.scss'
+import D3Tree from '../common/d3Tree'
 
 function App() {
   return (
     <div className={styles.app}>
-      <h1>HI, CJFW-LINEAGE</h1>
+      <D3Tree/>
     </div>
   )
 }
