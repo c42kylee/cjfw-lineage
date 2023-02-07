@@ -1,10 +1,10 @@
 import styles from './Routes.module.scss'
-import D3Tree from '../common/d3Tree'
+import Table from '../common/table'
 
 function App() {
   return (
     <div className={styles.app}>
-      <D3Tree/>
+      <Table/>
     </div>
   )
 }

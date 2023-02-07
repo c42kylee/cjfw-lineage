@@ -1,0 +1,37 @@
+.table {
+  line-height: 1.8rem;
+  width:100%;
+  th, td {
+    padding: 0 0.7rem 0 0.7rem;
+  }
+  th {
+    background: #42444e;
+    color: #fff;
+  }
+  td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+  }
+  td:first-child {
+    border-left: 1px solid #c6c9cc;
+  }
+  tr {
+    &:nth-child(even) {
+      background: #eaeaed;
+    }
+    &:hover{
+      cursor: pointer;
+      border-top : 3px solid black;
+      border-bottom : 3px solid black;
+    }
+  }
+}
+
+.entity {
+  text-align: left;
+}
+
+.id {
+  text-align:right;
+}
+
